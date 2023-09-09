@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-// import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import keyboardDrum from "../../Assets/Projects/keyboardDrum.png";
+import runnerGame from "../../Assets/Projects/runnerGame.png";
+import nftMarketplace from "../../Assets/Projects/nftMarketplace.png";
+import smartContracts from "../../Assets/Projects/smartContracts.png";
+import votingSystem from "../../Assets/Projects/votingSystem.png";
 
 function Projects() {
   return (
@@ -23,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={nftMarketplace}
               isBlog={false}
               title="NFT Marketplace"
               description="NFT Marketplace platform for creating, buying and selling NFTs - build with react.js, ether.js, hardhat, solidity and deployed on sepolia testnet. It has complete ui but currently wallet connection, NFTs creation and NFTs display features are fully functional. "
@@ -34,7 +33,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={votingSystem}
               isBlog={false}
               title="Voting dapp"
               description="An e-voting system where the votes data is stored on blockchain hence can not be altered - Build with react.js, web3.js, truffle, solidity and deployed on ethereum testnet."
@@ -45,7 +44,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={runnerGame}
               isBlog={false}
               title="Runner game"
               description="Run and jump the obstacles to score high - build with Vanilla Javascript and animations by css"
@@ -56,7 +55,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={keyboardDrum}
               isBlog={false}
               title="Keyboard Drum"
               description="Super cool drum :) Press keys to play drum - build using Vanilla Javascript."
@@ -67,7 +66,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={smartContracts}
               isBlog={false}
               title="Smart contracts"
               description="Smart contract in solidity for Lottery, crowd funding, blood donation, event organization and credit system."
