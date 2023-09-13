@@ -3,16 +3,18 @@
   <a href="https://portfolio-mkpatidar.netlify.app/" target="_blank">mayank.tech</a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./src/Assets/readmeDemo.png" />
 </div>
 
 <br/>
 
 <center>
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
+[![Built with Love](https://img.shields.io/badge/Built%20with-Love-red.svg)](https://github.com/mayankpatidar275/Portfolio)
+[![Made with JavaScript](https://img.shields.io/badge/Made%20with-JavaScript-yellow.svg)](https://github.com/mayankpatidar275/Portfolio)
+[![Open Source](https://img.shields.io/badge/Open%20Source-Yes-green.svg)](https://github.com/mayankpatidar275/Portfolio)
+
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/mayankpatidar275/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
 ![GitHub forks](https://img.shields.io/github/forks/mayankpatidar275/Portfolio?color=red&logo=github&style=for-the-badge)
 
