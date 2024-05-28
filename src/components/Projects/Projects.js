@@ -7,6 +7,8 @@ import runnerGame from "../../Assets/Projects/runnerGame.png";
 import nftMarketplace from "../../Assets/Projects/nftMarketplace.png";
 import smartContracts from "../../Assets/Projects/smartContracts.png";
 import votingSystem from "../../Assets/Projects/votingSystem.png";
+import entertainmentHub from "../../Assets/Projects/entertainmentHub.png";
+import fileServer from "../../Assets/Projects/fileServer.png"
 
 function Projects() {
   return (
@@ -20,6 +22,30 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={fileServer}
+              isBlog={false}
+              title="File server"
+              description="This desktop application enables you to effortlessly select and share directories from your system across the
+              local network, operating in a read-only mode. It automatically detects the running servers in the network at the client-side. Seamless navigation through served files and folders using the integrated file explorer upon connecting to any
+              available server via the client interface."
+              ghLink="https://github.com/mayankpatidar275/file-server"
+              demoLink="https://github.com/mayankpatidar275/file-server"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={entertainmentHub}
+              isBlog={false}
+              title="Entertainment hub"
+              description="It is a full-stack project with implemented authentication, and it currently features these fun activities: Jokes generator, Jump the obstacles game - css animations, Keyboard drum, Bubble game."
+              ghLink="https://github.com/mayankpatidar275/entertainment-hub"
+              demoLink="https://entertainment-hub-mkpatidar.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nftMarketplace}
@@ -49,7 +75,7 @@ function Projects() {
               title="Runner game"
               description="Run and jump the obstacles to score high - build with Vanilla Javascript and animations by css"
               ghLink="https://github.com/mayankpatidar275/Game"
-              demoLink="https://runner-game-mkpatidar.netlify.app/"              
+              demoLink="https://runner-game-mkpatidar.netlify.app/"
             />
           </Col>
 
@@ -71,10 +97,10 @@ function Projects() {
               title="Smart contracts"
               description="Smart contract in solidity for Lottery, crowd funding, blood donation, event organization and credit system."
               ghLink="https://github.com/mayankpatidar275?tab=repositories"
-                />
+            />
           </Col>
 
-          
+
         </Row>
       </Container>
     </Container>

@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { FaGithub } from "react-icons/fa";
 import {
   SiVisualstudiocode,
-  SiEclipseide,
-  SiSlack,
+  // SiEclipseide,
+  // SiSlack,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -13,11 +14,14 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <FaGithub />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiEclipseide />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiSlack />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

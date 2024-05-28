@@ -8,14 +8,17 @@ import {
   DiReact,
   DiNodejs,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
   SiFirebase,
   SiSolidity,
-  SiIpfs,
+  SiExpress,
+  SiMongodb, SiTailwindcss, SiRedux, SiTypescript
 } from "react-icons/si";
-import { GrMysql  } from "react-icons/gr";
+import { TbBrandNextjs } from "react-icons/tb";
+import { IoLogoCss3 } from "react-icons/io";
+import { FaDocker, FaLinux, FaSass } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
 // import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
@@ -28,10 +31,40 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <DiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <TbBrandNextjs />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiExpress />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaLinux />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <SiTypescript />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <IoLogoCss3 />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaSass />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiRedux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />
@@ -39,18 +72,21 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <FaGithub />
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <GrMysql /> 
+        <GrMysql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-      <SiIpfs /> 
-    </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <SiIpfs />
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <DiJava />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

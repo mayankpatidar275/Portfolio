@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/my-img.JPG"
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -30,7 +31,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Software Solutions and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Blockchain.
@@ -39,7 +40,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Node.js, Tauri </b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -48,14 +49,14 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
-                {/* <b className="purple"> React.js and Next.js</b> */}
+                <b className="purple"> React.js and Next.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
+              {/* <img src={myImg} className="img-fluid" alt="avatar" /> */}
             </Tilt>
           </Col>
         </Row>
@@ -78,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/mkpatidar"
+                  href="https://twitter.com/mkpatidarr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
