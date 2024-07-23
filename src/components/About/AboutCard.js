@@ -10,11 +10,10 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Mayank Patidar </span>
             from <span className="purple"> Indore, India.</span>
-            <br /> I am a final year student pursuing B-tech at IIIT Nagpur.
-            {/* <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
-            <br /> */}
+            <br /> I have done my B-tech from IIIT Nagpur.
+            <br />
+            I am currently working as a software developer at ThinkMetal Pvt. Ltd.
+            <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
