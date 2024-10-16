@@ -6,13 +6,22 @@ function AboutCard() {
   return (
     <Card className="quote-card-view">
       <Card.Body>
-        <blockquote className="blockquote mb-0">
+        <blockquote className="blockquote mb-0" style={{ fontSize: "1.1em" }}>
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Mayank Patidar </span>
-            from <span className="purple"> Indore, India.</span>
-            <br /> I have done my B-tech from IIIT Nagpur.
+            Hi Everyone, I am a passionate<b className="purple"> Software Engineer </b>
+            from <b className="purple"> Indore, India.</b>
+            <br /> I have done my B-tech from <b className="purple"> IIIT Nagpur.</b>
             <br />
-            I am currently working as a software developer at ThinkMetal Pvt. Ltd.
+            I am currently working as a <b className="purple"> Software Developer</b> at ThinkMetal Pvt. Ltd.
+            <br />
+            <br />
+            I enjoy building diverse projects, with a strong focus on creating innovative &nbsp;
+
+            <b className="purple">Software Solutions. </b>
+
+            <br />I am fluent in classics like
+
+            <b className="purple"> Javascript and DSA. </b>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -29,10 +38,10 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          {/* <p style={{ color: "rgb(155 126 172)" }}>
+            "Strive to build things that make a difference!"
           </p>
-          <footer className="blockquote-footer">Mayank</footer>
+          <footer className="blockquote-footer">Mayank</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

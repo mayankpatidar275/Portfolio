@@ -8,7 +8,8 @@ import nftMarketplace from "../../Assets/Projects/nftMarketplace.png";
 import smartContracts from "../../Assets/Projects/smartContracts.png";
 import votingSystem from "../../Assets/Projects/votingSystem.png";
 import entertainmentHub from "../../Assets/Projects/entertainmentHub.png";
-import fileServer from "../../Assets/Projects/fileServer.png"
+import fileServer from "../../Assets/Projects/fileServer.png";
+import weTeach from "../../Assets/Projects/weTeach.png";
 
 function Projects() {
   return (
@@ -32,6 +33,16 @@ function Projects() {
               available server via the client interface."
               ghLink="https://github.com/mayankpatidar275/file-server"
               demoLink="https://github.com/mayankpatidar275/file-server"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={weTeach}
+              isBlog={false}
+              title="WeTeach"
+              description="WeTeach is a comprehensive online learning and fun platform. The platform includes features such as user authentication, course progress tracking, chapter completion, and various tools for course creation, editing, publishing, browsing, filtering, and purchasing. Additionally, the project encompasses a FunZone for interactive games, implemented as separate microservices and served by an Nginx reverse proxy."
+              ghLink="https://github.com/mayankpatidar275/we-teach"
+              demoLink="https://we-teach.vercel.app/"
             />
           </Col>
 
