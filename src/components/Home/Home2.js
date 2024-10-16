@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import laptopImg from "../../Assets/about.png";
 // import myImg from "../../Assets/avatar.svg";
 // import myImg from "../../Assets/my-img.JPG"
 // import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineTwitter,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import AboutCard from "../About/AboutCard";

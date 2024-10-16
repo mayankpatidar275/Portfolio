@@ -7,6 +7,7 @@ import './Contact.css';
 function Contact() {
 
     const [result, setResult] = React.useState("");
+    console.log("result", result); // just to avoid warning
 
     const onSubmit = async (event) => {
         event.preventDefault();
