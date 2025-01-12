@@ -10,6 +10,9 @@ import votingSystem from "../../Assets/Projects/votingSystem.png";
 import entertainmentHub from "../../Assets/Projects/entertainmentHub.png";
 import fileServer from "../../Assets/Projects/fileServer.png";
 import weTeach from "../../Assets/Projects/weTeach.png";
+import ochi from "../../Assets/Projects/Ochi_modern_animated_responsive_website.gif";
+import appleClone from "../../Assets/Projects/apple-clone.png";
+import movieBrowser from "../../Assets/Projects/movieBrowser.png";
 
 function Projects() {
   return (
@@ -23,6 +26,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={movieBrowser}
+              isBlog={false}
+              title="Movie Browser"
+              description="This project is a movie-browsing web application that allows users to search for movies with advanced filtering options and save their favorite movies. The application is responsive and accessible."
+              ghLink="https://github.com/mayankpatidar275/movie-browser"
+              demoLink="https://movie-browser.mkpatidar.in"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={appleClone}
+              isBlog={false}
+              title="Apple Clone"
+              description="I developed a website resembling Apple's iPhone 15 Pro page using React, Three.js, and GSAP."
+              ghLink="https://github.com/mayankpatidar275/apple-clone"
+              demoLink="https://apple-clone.mkpatidar.in/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ochi}
+              isBlog={false}
+              title="Ochi"
+              description="This project is a clone of the award-winning Ochi website, featured on Awwwards. It replicates the sleek, modern design and engaging animations of the original, with a refined dark theme for added elegance."
+              ghLink="https://github.com/mayankpatidar275/ochi"
+              demoLink="https://ochi.mkpatidar.in/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={fileServer}
@@ -110,8 +143,6 @@ function Projects() {
               ghLink="https://github.com/mayankpatidar275?tab=repositories"
             />
           </Col>
-
-
         </Row>
       </Container>
     </Container>
